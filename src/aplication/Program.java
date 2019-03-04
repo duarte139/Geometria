@@ -17,6 +17,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		List<Shape> list = new ArrayList<>();
+		
+		System.out.println("Bom dia");
 
 		System.out.print("Enter the number of shapes: ");
 		int n = sc.nextInt();
